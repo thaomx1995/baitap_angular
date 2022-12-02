@@ -1,0 +1,8 @@
+<p>
+  two-way-binding-component works!
+</p>
+<label for="examble-ngModel">{{firstName}}</label>
+<br>
+<input [(ngModel)]="firstName" id="examble-ngModel">
+<label for="without">kết quả:</label>
+<input  [value]="firstName" (input)="firstName" id="without">

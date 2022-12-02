@@ -1,0 +1,8 @@
+<p>
+  e-tow-way-component works!
+</p>
+<label for="example-ngModel">{{firtsname}}</label><br>
+<input [(ngModel)]="firtsname" id="example-ngModel">
+<label for="without">với ngModel là:</label>
+<input [value]="firtsname" (input)="firtsname" id="without">
+

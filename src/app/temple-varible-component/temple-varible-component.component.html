@@ -1,0 +1,8 @@
+<p>
+  temple-varible-component works!
+</p>
+<input #phone placeholder="phone numer">
+<input ref-fax placeholder="phone numer">
+
+<button class="btn btn-block btn-info mb-1" (click)="callPhone(phone.value)">số điện thoại</button>
+<button class="btn btn-warning" (click)="callPhone(fax.value)">số fax:</button>
